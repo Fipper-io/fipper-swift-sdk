@@ -29,7 +29,7 @@ fipper.getConfig { config, error in
         }
         
         if case let FlagType.integer(state, value) = flag {
-            print("my_feature_flag flag is available: state = \(state), value = \(value)")
+            print("my_feature_flag is available: state = \(state), value = \(value)")
         } else {
             fatalError("Invalid type of my_feature_flag.")
         }
