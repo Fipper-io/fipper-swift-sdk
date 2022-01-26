@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum FipperError: Error {
+public enum FipperError: Error {
     case configNotFound
     case emptyDataResponse
     case invalidJson
