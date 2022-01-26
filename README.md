@@ -1,2 +1,3 @@
 # fipper-swift-sdk
-The Fipper Swift SDK
+
+A description of this package.
