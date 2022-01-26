@@ -14,7 +14,7 @@ public enum FlagType {
     case string(state: Bool, value: String)
     case json(state: Bool, value: [String:AnyObject])
     
-    init(dictionary: [String:AnyObject]) {
+    public init(dictionary: [String:AnyObject]) {
         let state = dictionary["state"] as! Bool
         let type = dictionary["type"] as! Int
         
