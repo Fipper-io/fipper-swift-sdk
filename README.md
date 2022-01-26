@@ -8,7 +8,7 @@ Add a dependency into your project: `https://github.com/Fipper-io/fipper-swift-s
 
 ## Example
 
-A code snippet that describes how to obrain data from Fipper.io:
+A code snippet that describes how to obtain data from Fipper.io:
 ```swift
 import fipper_swift_sdk
 
